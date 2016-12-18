@@ -1,0 +1,50 @@
+body {
+  background-color: #efefef;
+}
+.color-orange {
+  color: #ff6600;
+}
+
+.header-bd,
+.nav-bd,
+.footer-bd {
+  width: 1000px;
+  margin: 0 auto;
+}
+.header-bd {
+  height: 110px;
+  background-color: #fff;
+}
+.header-bd .logo {
+  float: left;
+  font-size: 36px;
+  margin: 20px 0 0 20px;
+}
+.header-bd .contact {
+  float: right;
+  font-size: 18px;
+  margin: 35px 10px 0 0;
+}
+
+.nav {
+  background-color: #222;
+}
+.nav-bd {
+  height: 45px;
+}
+.nav li {
+  float: left;
+}
+.nav a {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+  width: 166px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.nav a:hover {
+  background-color: #2980b9;
+}
+
