@@ -6,6 +6,8 @@
     <title>绍兴明烽节能科技有限公司</title>
     <link rel="stylesheet" href="http://g.tbcdn.cn/thx/cube/1.2.1/cube-min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/script/jquery.js"></script>
+    <script src="assets/script/unslider.js"></script>
   </head>
   <body>
     <div class="header">
@@ -17,18 +19,18 @@
     <div class="nav">
       <div class="nav-bd">
         <ul>
-          <li>
+          <li class="active">
             <a href="/">公司首页</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="/">关于我们</a>
-          </li>
+          </li> -->
           <li>
             <a href="/">产品展示</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="/">技术研发</a>
-          </li>
+          </li> -->
           <li>
             <a href="/">荣誉证书</a>
           </li>
@@ -39,12 +41,72 @@
       </div>
     </div>
     <div class="main">
-      
+      <div class="slider">
+        <ul>
+          <li>
+            <a href="javascript:void(0);" target="_blank">
+              <img src="assets/img/slider/1.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" target="_blank">
+              <img src="assets/img/slider/2.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" target="_blank">
+              <img src="assets/img/slider/3.jpg">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <div class="index-about">
+          <h3>公司简介</h3>
+          <div class="desc">
+            绍兴市明烽节能科技有限公司成立于2011年11月，公司位于浙江省绍兴市袍江开发区，厂房占地面积6000 m2,水、电配套齐全，系一家集研发、设计、制造、销售、施工于一体的综合型企业。
+          </div>
+        </div>
+        <div class="index-contact">
+          <h3>联系方式</h3>
+          <ul>
+            <li>
+              电话：0575-84318736
+            </li>
+            <li>
+              邮箱：sxmfkj@163.com
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="footer">
       <div class="footer-bd">
-        
+        <ul class="clearfix">
+          <li>
+            <a href="/">公司首页</a>
+          </li>
+          <li>
+            <a href="/">产品展示</a>
+          </li>
+          <li>
+            <a href="/">荣誉证书</a>
+          </li>
+          <li>
+            <a href="/">联系方式</a>
+          </li>
+        </ul>
       </div>
     </div>
+    <script>
+      $(function(){
+        $('.slider').unslider({
+          autoplay: true,
+          animation: 'fade',
+          arrows: false,
+          speed: 1500
+        })
+      })
+    </script>
   </body>
 </html>

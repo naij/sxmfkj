@@ -11,6 +11,9 @@ body {
   width: 1000px;
   margin: 0 auto;
 }
+.header {
+  background-color: #fff;
+}
 .header-bd {
   height: 110px;
   background-color: #fff;
@@ -27,7 +30,7 @@ body {
 }
 
 .nav {
-  background-color: #222;
+  background-color: #e94545;
 }
 .nav-bd {
   height: 45px;
@@ -39,12 +42,95 @@ body {
   float: left;
   height: 45px;
   line-height: 45px;
-  width: 166px;
+  width: 250px;
   text-align: center;
   font-size: 14px;
   color: #fff;
 }
 .nav a:hover {
-  background-color: #2980b9;
+  background-color: #aa1111;
+}
+.nav .active a {
+  background-color: #aa1111;
 }
 
+
+.main {
+  width: 1000px;
+  margin: 20px auto 50px;
+}
+
+.unslider {
+  position: relative;
+}
+.slider {
+  height: 485px;
+}
+.slider .unslider-wrap {
+  position: relative;
+}
+.slider .unslider-wrap li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.unslider-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  text-align: center;
+}
+.unslider-nav ol li {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
+  background: 0 0;
+  background: #f2f2f2\9;
+  border-radius: 5px;
+  overflow: hidden;
+  text-indent: -999em;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.unslider-nav .unslider-active {
+  background-color: #f50;
+  cursor: default;
+}
+
+
+.index-about,
+.index-contact {
+  float: left;
+  width: 460px;
+  padding: 20px 0 0;
+}
+.index-contact {
+  margin-left: 80px;
+}
+.index-about h3,
+.index-contact h3 {
+  font-size: 18px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.footer {
+  background-color: #222;
+  height: 150px;
+  padding-top: 50px;
+}
+.footer ul {
+  width: 344px;
+  margin: 0 auto;
+}
+.footer li {
+  float: left;
+  margin: 0 15px;
+}
+.footer a {
+  color: #fff;
+}
