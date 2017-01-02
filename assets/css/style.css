@@ -21,7 +21,7 @@ body {
 .header-bd .logo {
   float: left;
   font-size: 36px;
-  margin: 20px 0 0 20px;
+  margin: 20px 0 0 0px;
 }
 .header-bd .contact {
   float: right;
